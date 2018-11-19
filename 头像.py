@@ -8,7 +8,6 @@ import random
 
 file_path='E:/touxiang/'
 temp = 0
-a = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14']
 def downimg(url):
     urllib.request.urlretrieve(url, file_path + str(round(time.time())) + str(random.randint(11111111111, 999999999999)) +".png") 
     print(url+'下载完成\n')
